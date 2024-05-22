@@ -110,6 +110,7 @@ body{
         --clip:0;
         overflow:hidden ;
     }
+    
 
     .menu__item--active{
         --transform: rotate(0);
@@ -132,7 +133,7 @@ body{
         overflow-y: auto;
         display: grid;
         grid-auto-rows: max-content;
-        transform: translateX(100%);
+        transform: translateX(10%);
     }
 
     .menu__links--show{
